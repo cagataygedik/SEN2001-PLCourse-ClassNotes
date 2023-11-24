@@ -23,13 +23,36 @@ while i < 3:  # 3 < 3?
     i += 1
 print("the last i:", i)
 
+'''
+hi with i: 0
+hi with i: 1
+hi with i: 2
+the last i: 3
+'''
+
 print("-------")
+
 for j in range(3):  # [0,1,2]
     print("hi with j:", j)
 print("the last j:", j)
+
+'''
+hi with j: 0
+hi with j: 1
+hi with j: 2
+the last j: 2
+'''
+
 print("-------")
 
-for j in [0, 1, 2]:  # [0,1,2]
-    print("hi with j:", j)
-print("the last j:", j)
+for k in [0, 1, 2]:  # [0,1,2]
+    print("hi with k:", k)
+print("the last k:", k)
+
+'''
+hi with k: 0
+hi with k: 1
+hi with k: 2
+the last k: 2
+'''
 

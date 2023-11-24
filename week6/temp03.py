@@ -1,16 +1,14 @@
 name = "Cagatay"
 
-print(name[0])
-print(name[:5])
-print(name[5:])
-print(name[::-1])
+print(name[0])  # C
+print(name[:5])  # Cagat
+print(name[5:])  # ay
+print(name[::-1])  # yatagaC
 name = name.capitalize()
-#name[1] = "k"
-#print(sum(name))
+
+# name[1] = "k" -> THIS CAN'T  BE HAPPENED CAUSE AN ERROR
+# print(sum(name)) -> THIS CAN'T  BE HAPPENED CAUSE AN ERROR
+
 print(name)
-print(max(name))  # z
-print(min(name))  # Z
-
-# A -> 65, a -> 9x
-
-# break until 10:05
+print(max(name))  # y
+print(min(name))  # C

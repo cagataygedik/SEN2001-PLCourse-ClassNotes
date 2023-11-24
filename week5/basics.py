@@ -1,8 +1,8 @@
-print(5 + 8)  # addition
+print(5 + 8)
 print(5 - 8)
 print(5 * 8)
 print(8 / 5)
-print(8 // 5)
+print(8 // 5)  # rounded to 1 from 1.6
 print(2 ** 5)
 
 ###########################
@@ -35,14 +35,14 @@ else:
 for i in range(3):  # [0, 1, 2]
     print(i)
 
-print("the last value of i:", i)
+print("the last value of i:", i)  # 2
 
 ###########################
 
 for i in [1, 2, 5.5, True, "python"]:  # [0, 1, 2]
     print(i)
 
-print("the last value of i:", i)
+print("the last value of i:", i)  # python
 
 ###########################
 
